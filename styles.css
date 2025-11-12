@@ -9,11 +9,13 @@
   .navbar-brand {
     font-size: 1rem;
   }
+}
 
   @media (max-width: 992px) {
   #div001 h3 {
     font-size: 1.8rem;
   }
+}
  
  .profile-pic {
     width: 200px;
@@ -307,3 +309,15 @@
   box-shadow: 0 0 12px rgba(69, 95, 159, 0.3);
 }
 
+
+@keyframes bounce {
+  0%, 80%, 100% {
+    transform: translateY(0);
+    background-color: #455f9f;
+  }
+  40% {
+    transform: translateY(-20px);
+    background-color: #4CAF50;
+  }
+}
+  
