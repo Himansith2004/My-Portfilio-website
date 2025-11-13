@@ -28,11 +28,7 @@
     animation: fadeIn 1.2s ease-in-out;
   }
 
-  @media (max-width: 768px) { 
-     body {  
-        background-color: rgb(70, 88, 113); 
-     }
-     }
+
 
   .profile-pic:hover {
     transform: scale(1.08) rotate(3deg);
